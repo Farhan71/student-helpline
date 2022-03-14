@@ -1,6 +1,6 @@
 import React from 'react';
 import { useContext, useState } from "react";
-import {axiosInstance} from "../../../config";
+import axiosInstance from "../../../config";
 import {Context } from '../../../context/Context';
 import "./rptWrite.css"
 
