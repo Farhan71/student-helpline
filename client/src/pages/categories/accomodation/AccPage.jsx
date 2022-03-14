@@ -3,7 +3,7 @@ import AccPosts from "./AccPosts"
 import AccWrite from "./AccWrite"
 import "./accPage.css"
 import { useEffect, useState } from "react";
-import {axiosInstance} from "../../../config";
+import axiosInstance from "../../../config";
 import { useLocation } from "react-router";
 
 const AccPage = () => {
