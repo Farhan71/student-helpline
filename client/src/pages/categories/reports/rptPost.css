@@ -1,0 +1,44 @@
+
+.link  {
+    text-decoration: none;
+    color: black;
+    text-decoration-color: black ;
+    cursor: pointer;
+}
+.authorPic  > img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+/* .post-body{
+    background-color: #fff;
+    width: 400px;
+    margin: 0px 25px 40px 25px;
+} */
+
+.card{
+    background-color: #fff;
+    
+    box-shadow: 0 0 5px 0 rgba(22, 22, 26, .25);
+    padding: 0px;
+   
+}
+
+.card-body > .card-title {
+    font-size: 5px;
+}
+/* .card-img-top {
+
+    object-fit: cover;
+} */
+.card > .card-body>  .card-title {
+    font-size: 16px;
+}
+/* .card > .card-body> div h6 .card-subtitle {
+    font-size: 8px;
+} */
+.card > .card-body> div .card-text {
+    font-size: 12px;
+}

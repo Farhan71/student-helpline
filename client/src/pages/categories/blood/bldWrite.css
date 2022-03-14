@@ -1,0 +1,14 @@
+.write {
+    font-family: 'Poppins', sans-serif; 
+    background-color: #fff;
+  }
+  .write-title {
+    font-size: 18px;
+    margin: 0px auto; 
+  }
+  .write-body{
+    font-size: 10px;
+    height: 500px;
+    width: 300px;  
+
+  }

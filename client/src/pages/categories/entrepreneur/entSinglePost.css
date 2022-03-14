@@ -1,0 +1,26 @@
+.card > .card-body>  .card-title {
+    font-size: 16px;
+}
+
+.card > .card-body> div .card-text {
+    font-size: 12px;
+}
+
+.authorPic  > img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+
+.link  {
+    text-decoration: none;
+    color: black;
+    text-decoration-color: black ;
+    cursor: pointer;
+}
+.single-post-wrapper {
+    height: 1200px;
+    background-color: #f4f4f4;
+}

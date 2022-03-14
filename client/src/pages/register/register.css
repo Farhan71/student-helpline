@@ -1,0 +1,119 @@
+/* .register {
+  
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("../../images/register.jpg");
+  background-size: cover;
+}
+
+.registerTitle {
+  font-size: 50px;
+ display: flex;
+ justify-content: center;
+}
+
+.registerForm {
+
+  margin-top: 20px;
+}
+
+.registerForm > label {
+  margin: 10px 0;
+}
+
+.registerInput {
+  padding: 10px;
+  background-color: white;
+  border: none;
+  width: 200px;
+}
+
+.registerButton {
+  width: 200px;
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: teal;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.registerLoginButton {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color: lightcoral;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+} */
+
+/* label, input {
+  font-size: 12px;
+}
+input {
+  width: 70%;
+}
+.register{
+ padding: 1% 40%;
+} */
+/* .popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.popup-inner {
+  position: relative;
+  padding: 32px;
+  width: 640px;
+  background-color: white;
+
+}
+.popup-inner .close-btn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+} */
+
+.register {
+  font-family: 'Poppins', sans-serif; 
+  background-color: #f4f4f4;
+  margin: 0px;
+  padding: 100px;
+}
+.register-title {
+  font-size: 18px;
+  margin: 0px auto; 
+}
+.register-body{
+  font-size: 10px;
+  background-color: white;
+  height: 680px;
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 15px;
+
+}
+
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #27395E;
+  border-color: #27395E; 
+}
+.btn-outline-primary {
+  
+  border-color: #27395E; 
+}

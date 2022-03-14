@@ -1,0 +1,30 @@
+.otpVerify {
+    font-family: 'Poppins', sans-serif; 
+    background-color: #f4f4f4;
+    margin: 0px;
+    padding: 100px;
+  }
+  .otpVerify-title {
+    font-size: 18px;
+    margin: 0px auto; 
+  }
+  .otpVerify-body{
+    font-size: 10px;
+    background-color: white;
+    height: 220px;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+  
+  }
+
+  .btn-outline-primary:hover {
+    color: #fff;
+    background-color: #27395E;
+    border-color: #27395E; 
+  }
+  .btn-outline-primary {
+    
+    border-color: #27395E; 
+  }

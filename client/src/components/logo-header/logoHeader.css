@@ -1,0 +1,10 @@
+.icon-style a {
+    color: #141e33;
+    margin-right: 5px;
+}
+.horizontal-line {
+   border: 5px solid #141e33;
+   margin: 0px;
+background-color: #141e33;
+opacity: 1;
+}
