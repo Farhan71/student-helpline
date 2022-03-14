@@ -131,6 +131,7 @@ const Register =() =>{
  
  <select  onChange={(e) =>  {setBloodGroup(e.target.value)}} name="" id="">
                       
+                      <option value="">Blood Group</option>
                       <option value="A Positive">A+</option>
                       <option value="A Negative">A-</option>
                       <option value="B Positive">B+</option>

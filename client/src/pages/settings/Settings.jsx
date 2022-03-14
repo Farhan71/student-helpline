@@ -63,11 +63,13 @@ export default function Settings() {
     <div className="row ">
       <div className="col-md-6">
       
-    
+      <br />
+      <h6>Here you can update your information. Remember that, you cannot change only one field. If you want to change one field, you need to rewrite every field again... </h6>
     <div className="settings">
       <div className="settingsWrapper">
         <div className="settingsTitle">
           <span className="settingsUpdateTitle">Update Your Account</span>
+          
           {/* <span className="settingsDeleteTitle" onClick={handleDelete}>Delete Account</span> */}
         </div>
         <form  onSubmit={handleSubmit}>
@@ -167,6 +169,9 @@ export default function Settings() {
 
     <div className="col-md-6">
       <br />
+      <div className="text-center">
+      <h5> Your Posts</h5>
+      </div>
     <MyPosts></MyPosts>
     </div>
 
