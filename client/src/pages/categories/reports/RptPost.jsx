@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import { useContext, useEffect, useState } from "react";
 import "./rptPost.css"
-import {axiosInstance} from "../../../config";
+import axiosInstance from "../../../config";
 
 const RptPost = ({ post }) => {
   const [auther, setAuther] = useState([]);

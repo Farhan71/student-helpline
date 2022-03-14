@@ -1,7 +1,7 @@
 import React from 'react';
 import { useContext, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import {axiosInstance} from "../../../config";
+import axiosInstance from "../../../config";
 import "./bookPost.css"
 import {Context} from "../../../context/Context"
 

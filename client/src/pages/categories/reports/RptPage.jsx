@@ -1,6 +1,6 @@
 import React from 'react';
 import { useEffect, useState } from "react";
-import {axiosInstance} from "../../../config";
+import axiosInstance from "../../../config";
 import RptPosts from './RptPosts';
 import RptWrite from './RptWrite';
 import "./rptPage.css";

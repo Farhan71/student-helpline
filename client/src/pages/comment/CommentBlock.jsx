@@ -3,7 +3,7 @@ import CommentAll from './CommentAll';
 import CommentWrite from './CommentWrite';
 import { useEffect, useState } from "react";
 import { useLocation } from "react-router";
-import {axiosInstance} from "../../config";
+import axiosInstance from "../../config";
 
 const CommentBlock = () => {
     const [comments, setComments] = useState([]); 

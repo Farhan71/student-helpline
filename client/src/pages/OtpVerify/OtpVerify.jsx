@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState, useEffect } from "react";
 import { useLocation } from "react-router";
-import {axiosInstance} from "../../config";
+import axiosInstance from "../../config";
 import "./otpVerify.css"
 
 const OtpVerify = () => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import {axiosInstance} from "../../config";
+import axiosInstance from "../../config";
 import { useLocation } from "react-router";
 import { useEffect, useState } from "react";
 

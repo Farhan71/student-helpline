@@ -1,4 +1,4 @@
-import {axiosInstance} from "../../config";
+import axiosInstance from "../../config";
 import { useState, useEffect } from "react";
 import OtpVerify from "../OtpVerify/OtpVerify";
 import { Link } from "react-router-dom";

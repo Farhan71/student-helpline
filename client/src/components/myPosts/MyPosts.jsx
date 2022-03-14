@@ -1,6 +1,6 @@
 import React from 'react';
 import { useContext, useEffect, useState } from "react";
-import {axiosInstance} from "../../config";
+import axiosInstance from "../../config";
 import { useLocation } from "react-router";
 import { Context } from "../../context/Context";
 import AccPosts from '../../pages/categories/accomodation/AccPosts';

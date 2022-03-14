@@ -2,7 +2,7 @@ import "./settings.css";
 import Sidebar from "../../components/sidebar/Sidebar";
 import { useContext, useState } from "react";
 import { Context } from "../../context/Context";
-import {axiosInstance} from "../../config";
+import axiosInstance from "../../config";
 import MyPosts from "../../components/myPosts/MyPosts";
 
 export default function Settings() {

@@ -1,6 +1,6 @@
 import React from 'react';
 import { useEffect, useState } from "react";
-import {axiosInstance} from "../../../config";
+import axiosInstance from "../../../config";
 import EntWrite from './EntWrite';
 import EntPosts from './EntPosts';
 import "./entPage.css"

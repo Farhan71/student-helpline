@@ -1,6 +1,6 @@
 import React from 'react';
 import { useEffect, useState } from "react";
-import {axiosInstance} from "../../../config";
+import axiosInstance from "../../../config";
 import BldPosts from './BldPosts';
 import BldWrite from './BldWrite';
 import { useLocation } from "react-router";
