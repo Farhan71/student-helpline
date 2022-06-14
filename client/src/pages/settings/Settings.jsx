@@ -1,6 +1,6 @@
 import "./settings.css";
 import Sidebar from "../../components/sidebar/Sidebar";
-import { useContext, useState } from "react";
+import { useContext, useState, useEffect } from "react";
 import { Context } from "../../context/Context";
 import axiosInstance from "../../config";
 import MyPosts from "../../components/myPosts/MyPosts";
@@ -19,6 +19,22 @@ export default function Settings() {
   const { user, dispatch } = useContext(Context);
   const PF = "https://student-helpline-blog.herokuapp.com/images/"
   const userId = user._id 
+
+  useEffect(() =>{
+    const getId = async () => {
+        const fetchUser = await axiosInstance.get(`users/${userId}`)
+        
+        setBloodGroup(fetchUser.data.bloodGroup)
+        setIsDonor(fetchUser.data.isDonor)
+        setIsEntrepreneur(fetchUser.data.isEntrepreneur)
+        setIsReporter(fetchUser.data.isReporter)
+        setContact(fetchUser.data.contact);
+        setUsername(fetchUser.data.username) 
+        setPassword(fetchUser.data.password)
+        // setId(res.data)
+    };
+    getId();
+}, [userId])
 
   const handleDelete = async (e) => {
     e.preventDefault();
@@ -64,7 +80,7 @@ export default function Settings() {
       <div className="col-md-6">
       
       <br />
-      <h6>Here you can update your information. Remember that, you cannot change only one field. If you want to change one field, you need to rewrite every field again... </h6>
+     
     <div className="settings">
       <div className="settingsWrapper">
         <div className="settingsTitle">
@@ -72,7 +88,7 @@ export default function Settings() {
           
           {/* <span className="settingsDeleteTitle" onClick={handleDelete}>Delete Account</span> */}
         </div>
-        <form  onSubmit={handleSubmit}>
+       
           <label>Profile Picture</label>
           <div className="settingsPP">
     
@@ -148,7 +164,10 @@ export default function Settings() {
             onChange={(e) => setPassword(e.target.value)}
           />
           
-          <button className="settingsSubmit" type="submit">
+          {/* <button className="settingsSubmit" type="submit">
+            Update
+          </button> */}
+          <button className="settingsSubmit" type="submit" onClick={handleSubmit}>
             Update
           </button>
           {success && (
@@ -158,7 +177,7 @@ export default function Settings() {
               Profile has been updated...
             </span>
           )}
-        </form>
+      
       </div>
       {/* <Sidebar /> */}
       

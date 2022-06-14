@@ -23,15 +23,15 @@ const Register =() =>{
   
 
 
-  useEffect (() => {
-    const getValidUsers = async () => {
+  // useEffect (() => {
+  //   const getValidUsers = async () => {
       
-      const res = await axiosInstance.get(`/validUsers/?email=${email}`);
-      console.log(res.data)
-      setValidEmail(res.data)
-    };
-    getValidUsers();
-  },[email]);
+  //     const res = await axiosInstance.get(`/validUsers/?email=${email}`);
+  //     console.log(res.data)
+  //     setValidEmail(res.data)
+  //   };
+  //   getValidUsers();
+  // },[email]);
 
   
 
@@ -89,16 +89,6 @@ const Register =() =>{
    placeholder="Enter your email..."
    className="form-control"
    onChange={(e) => setEmail(e.target.value)}
-   // onChange={(e) => 
-   //   { var split = e.target.value.split('@')
-   //   var domain = split[1]
-   //   if (String(domain) ==="student.nstu.edu.bd") {
-   //     setError(false)
-   //     setEmail(e.target.value)
-   //   } else {
-   //     setError(true)
-   //   }}
-   // }
  /> <br /><br />
   
  {/* <label >Contact Number</label> &nbsp; */}
@@ -221,7 +211,9 @@ const Register =() =>{
 
  <div className="text-center md-5">
 
- { validEmail ?  <button style={{width:"120px"}} type="submit" className="btn btn-outline-primary" >Register</button> : <h6>Enter your valid Edu-mail ID and get register button </h6> }
+ {/* { validEmail ?  <button style={{width:"120px"}} type="submit" className="btn btn-outline-primary" >Register</button> : <h6>Enter your valid Edu-mail ID and get register button </h6> } */}
+
+  <button style={{width:"120px"}} type="submit" className="btn btn-outline-primary" >Register</button> 
  {/* { validEmail &&  <button style={{width:"120px"}} type="submit" >Register</button> } */}
 
  </div>

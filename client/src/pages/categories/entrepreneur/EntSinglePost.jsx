@@ -82,7 +82,7 @@ const EntSinglePost = () => {
       <>
 
 
-<div className="container" style={{height:"1200px", backgroundColor:"#f4f4f4"}}>
+<div className="container" style={{ backgroundColor:"#f4f4f4"}}>
   
   <div className="row" >
     <div className="col-md-8" style={{marginTop:"100px"}} >

@@ -4,7 +4,7 @@ import "./footer.css"
 const footer = () => {
   
     return (
-        <div className="footer-body">
+        <>
         
 
 <footer className="footer-distributed">
@@ -76,7 +76,7 @@ const footer = () => {
 
     </div>
     
-  </div>
+  </>
 
     );
 };
