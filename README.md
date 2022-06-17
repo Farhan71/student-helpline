@@ -1,7 +1,7 @@
 
 # Student Helpline
 
-This is a web application enabling university students to interact with each other to meet their different day-to-day demands other than academic requirements. A university student moves to a new town from another city, district, or even country for a term of at least four years. As a result, a new student faces a variety of daily living issues, such as finding cheap housing, purchasing books and accessories, donating blood and so on, and it might be difficult for them to discover all of this information in their new location. Again, entrepreneurs need to publish to promote their products, while student journalists need to show a variety of articles. An online application that provides an one-stop solution for accessing this information will assist students in making their lives easier and more comfortable, allowing them to focus on their academics. It reduces reliance on social media groups for such needs. This program allows students to assist one another, resulting in a more effective student community helpdesk platform. As a result, such a web application will increase data access and service quality while also reducing effort and time.
+This is a web application enabling university students to interact with each other to meet their different day-to-day demands other than academic requirements. A university student moves to a new town from another city, district, or even country for a term of at least four years. As a result, a new student faces a variety of daily living issues, such as finding cheap housing, purchasing books and accessories, donating blood and so on, and it might be difficult for them to discover all of this information in their new location. Again, entrepreneurs need to publish to promote their products, while student journalists need to show a variety of articles.An online application that provides an one-stop solution for accessing this information will assist students in making their lives easier and more comfortable, allowing them to focus on their academics. It reduces reliance on social media groups for such needs. This program allows students to assist one another, resulting in a more effective student community helpdesk platform. As a result, such a web application will increase data access and service quality while also reducing effort and time.
 
 ## Features
 
@@ -12,6 +12,8 @@ This is a web application enabling university students to interact with each oth
 - See each others profile containing name, ID, blood group, phone number, profile pic.
 - Sort and Filter out posts by user's preferences.
 - Edit and Delete own post and comment.
+
+
 ## Tech Stack
 
 **Client:** JavaScript, React, CSS, Bootstrap, Axios
@@ -34,15 +36,29 @@ Run and visit this project at
 https://student-helpline-blog.herokuapp.com/ 
 ```
 
+Want to avoid register/email verification and make a quick visit with login?
+
+Login with 
+```bash
+farhan1112@student.nstu.edu.bd
+```
+
+Password 
+```bash
+12345
+```
+
+
+
 ## 🚀 About Me
-I'm a full stack MERN developer...
+I'm a full stack MERN developer, completed my B.Sc. Engineering from the department of ICE (Information & Communication Engineering), NSTU. 
 
 
 ## 🛠 Skills
 C, C++. JavaScript, HTML, CSS, Bootstrap, Material UI, React, Node, Express, MongoDb, Mongoose, Git, Github
 
 
-## Authors
+## Author
 
 - [@Farhan71](https://github.com/Farhan71)
 
