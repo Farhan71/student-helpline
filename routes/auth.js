@@ -43,7 +43,7 @@ router.post ("/register/verifyOTP", async (req, res) => {
         res.status(200).json(saveduser);
 
 		const message = `YOUR OTP NUMBER IS ${randomNumber}`
-		await sendEmail(req.body.email, "Verify Email", message);
+		await sendEmail(req.body.email, "Verify Your Email for STUDENT HELPLINE", message);
 				res
 					.status(201)
 					
