@@ -12,6 +12,7 @@ This is a web application enabling university students to interact with each oth
 - See each others profile containing name, ID, blood group, phone number, profile pic.
 - Sort and Filter out posts by user's preferences.
 - Edit and Delete own post and comment.
+- REST API for every request. 
 
 
 ## Tech Stack
